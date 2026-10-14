@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="assets/logo.png"><title>Белёвская пастила. Вкус раскрывается.</title>
+  <meta name="description" content="Интерактивная концепция сайта Белёвской пастильной мануфактуры: раскрытие по слоям, выбор вкуса и крупная фактура продукта.">
+  <link rel="stylesheet" href="fonts.css"><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#flavours">К выбору вкуса</a>
+<header class="header">
+  <button class="menu-trigger" aria-label="Открыть меню"><span></span><span></span>Меню</button>
+  <a class="brand" href="#top" aria-label="Белёвская пастильная мануфактура, начало"><img src="assets/logo.png" alt="Белёвская пастильная мануфактура"></a>
+  <a class="header-shop" href="#flavours">Выбрать вкус <span aria-hidden="true">↗</span></a>
+</header>
+
+<main>
+  <section class="opening" id="top" aria-labelledby="hero-heading">
+    <div class="stage">
+      <div class="stage-grain" aria-hidden="true"></div>
+      <div class="hero-type"><p>Белёвская</p><h1 id="hero-heading">ПАСТИЛА</h1></div>
+      <div class="product-stage" aria-hidden="true"><div class="product-tilt"><div class="layers"></div></div><div class="product-shadow"></div></div>
+      <div class="opening-caption"><p>Слой яблока.<br>Слой характера.</p><span class="scroll-hint">Прокрутите, чтобы заглянуть внутрь <b aria-hidden="true">↓</b></span></div>
+      <a href="#flavours" class="round-cta magnetic"><span>Найти<br>свой вкус</span><b aria-hidden="true">↗</b></a>
+      <div class="inside-title" aria-hidden="true"><span>ВСЯ СУТЬ</span><em>внутри.</em></div>
+      <div class="layer-note apple-note"><span class="note-line"></span><h2>Яблочные слои</h2><p>Посмотрите на эту<br>воздушную фактуру.</p></div>
+      <div class="layer-note berry-note"><span class="note-line"></span><h2>Ягодный акцент</h2><p>У каждого вкуса<br>свой характер.</p></div>
+    </div>
+  </section>
+
+  <section class="flavours" id="flavours" aria-labelledby="flavour-title">
+    <div class="flavour-backdrop" aria-hidden="true">СВОЙ ВКУС</div>
+    <div class="flavour-intro"><p>Яблочная классика<br>и её ягодное продолжение.</p><a href="https://pastila1881.com/catalog" target="_blank" rel="noopener">Весь ассортимент ↗</a></div>
+    <div class="flavour-photo"><img draggable="false" id="flavour-image" src="assets/berry-direction.png" alt="Концептуальная предметная фотография ягодной пастилы"><div class="photo-hint">Листайте вкусы <span aria-hidden="true">↔</span></div></div>
+    <div class="flavour-info"><p class="flavour-kicker">Белёвская пастила</p><h2 id="flavour-title">Чёрная<br><em>смородина.</em></h2><p id="flavour-description">Яблочная основа. Ягодный характер.<br>Для тех, кто любит с кислинкой.</p><button class="product-button magnetic" data-product>Посмотреть продукт <span aria-hidden="true">↗</span></button></div>
+    <div class="flavour-controls" role="group" aria-label="Выбор вкуса">
+      <button class="flavour-prev" aria-label="Предыдущий вкус">←</button>
+      <div class="flavour-tabs"><button data-flavour="0">Классическая</button><button data-flavour="1" class="active" aria-pressed="true">Смородина</button><button data-flavour="2">Вишня</button></div>
+      <button class="flavour-next" aria-label="Следующий вкус">→</button>
+    </div>
+  </section>
+
+  <section class="details" id="details" aria-labelledby="details-title">
+    <div class="details-heading"><h2 id="details-title">ЕСТЬ ЧТО<br><em>рассмотреть.</em></h2><p>Сначала хочется разглядеть.<br>Потом - отломить кусочек.</p></div>
+    <article class="detail-card cream-card"><div class="detail-photo"><img src="assets/classic-direction.png" alt="Визуализация фактуры яблочной пастилы" loading="lazy"></div><div class="detail-copy"><h3>Яблоко<br>крупным планом.</h3><p>Фактура, слои, лёгкая пудра.<br>Продукт, который интересно рассмотреть.</p><button class="text-link" data-product>Открыть карточку <span>↗</span></button></div></article>
+    <article class="detail-card berry-card"><div class="detail-copy"><h3>С ягодами.<br><em>С характером.</em></h3><p>Выберите знакомый вкус<br>или попробуйте новый.</p><a class="text-link" href="#flavours">Вернуться к вкусам <span>↗</span></a></div><div class="detail-photo"><img src="assets/berry-direction.png" alt="Визуализация пастилы с ягодным слоем" loading="lazy"></div></article>
+  </section>
+
+  <section class="business" id="business"><p>Магазинам и партнёрам</p><h2>ХОТИТЕ<br>К СЕБЕ <em>на полку?</em></h2><div class="business-bottom"><p>Ассортимент и условия сотрудничества<br>у команды мануфактуры.</p><a class="business-link magnetic" href="https://pastila1881.com/contacts" target="_blank" rel="noopener">Связаться <span>↗</span></a></div></section>
+</main>
+
+<footer><a href="references.html">Референсы и разбор концепции ↗</a><p>Демонстрационный прототип. Изображения сгенерированы для показа идеи; фотографии, вкусовые описания и ассортимент требуют согласования. Не официальный сайт производителя.</p></footer>
+
+<dialog class="product-dialog" aria-labelledby="dialog-title"><button class="dialog-close" aria-label="Закрыть карточку">×</button><div class="drawer-handle" aria-hidden="true"></div><div class="dialog-layout"><img id="dialog-image" src="assets/berry-direction.png" alt="Концептуальная фотография пастилы"><div class="dialog-copy"><p>Белёвская пастила</p><h2 id="dialog-title">Чёрная смородина</h2><p class="dialog-description">Узнайте актуальный состав, варианты фасовки и точки продаж на сайте производителя.</p><details><summary>Что будет в полной карточке</summary><p>Точный состав и аллергены, пищевая ценность, вес, хранение, упаковка и прямые ссылки на подтверждённых продавцов.</p></details><a class="dialog-buy" href="https://pastila1881.com/catalog" target="_blank" rel="noopener">Каталог производителя <span>↗</span></a></div></div></dialog>
+<dialog class="nav-dialog" aria-label="Навигация"><button class="nav-close" aria-label="Закрыть меню">×</button><nav><a href="#flavours">Выбрать вкус <span>↗</span></a><a href="#details">Рассмотреть <span>↗</span></a><a href="#business">Для бизнеса <span>↗</span></a><a href="references.html">О концепции <span>↗</span></a></nav></dialog>
+<script src="app.js?v=3"></script>
+</body></html>
