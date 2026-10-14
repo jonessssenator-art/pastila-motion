@@ -1,0 +1,68 @@
+{
+  "project_id": "appgprj_6acf1a11b32c8191bee86d1d2f9d0b23",
+  "workflow": "Prepared for public link sharing at user request. No customer communication.",
+  "astra_usage_checked": {
+    "plan": "pro",
+    "weekly_remaining_before": 35,
+    "credits_before": 500
+  },
+  "references": [
+    {
+      "title": "Scroll slider for blink",
+      "author": "Edo Lunardi, design by seb__design",
+      "astra": "https://astra-ui.com/references?ref=357a7a0d-9841-4979-87f7-243786d16f36",
+      "source": "https://x.com/edo_lunardi/status/2109639533339820261",
+      "context_request_id": "a9ca8348-8130-4ff3-9e90-4e5cc092d9a1",
+      "frames_request_id": "8fdd8f98-2bc3-4c18-a1bf-b97ae3c50da6",
+      "use": "Scroll-bound storytelling and flat surfaces. Reference easing inferred as cubic-bezier(.4,0,.2,1); recording camera zoom is excluded. No reference numbers or claims transferred."
+    },
+    {
+      "title": "Office Commun brand + motion",
+      "author": "Drice",
+      "astra": "https://astra-ui.com/references?ref=233658fc-3b33-46e7-a5c8-c2c0fbea1a01",
+      "source": "https://x.com/driceroland/status/2109698741607305252",
+      "context_request_id": "e17d719c-169b-42ee-acb5-57f9dfe74fa5",
+      "use": "Sparse composition and clear resting states. Analysis found hard cuts, so no invented animation parameters are attributed to this reference."
+    }
+  ],
+  "components": [
+    {
+      "id": "scroll-zoom-reveal",
+      "url": "https://astra-ui.com/animations/scroll-zoom-reveal",
+      "request_id": "87c27741-5a3e-44f0-9695-6259c34e06d1",
+      "original_platform": "react-native",
+      "source": "astra-source/components/organisms/scroll-zoom-reveal",
+      "web_adaptation": "dist/astra-motion.js: zoomReveal",
+      "adaptation": "Pinned stage, expansion by scroll progress, full size at 85%, side text fading by 40%. Uses native browser scrolling rather than an Expo dependency."
+    },
+    {
+      "id": "magnetic-button",
+      "url": "https://astra-ui.com/animations/magnetic-button",
+      "request_id": "08bc0fe4-9969-47e2-ab77-83c326e05631",
+      "original_platform": "react-native",
+      "source": "astra-source/components/micro-interactions/magnetic-button",
+      "web_adaptation": "dist/astra-motion.js: magnetic",
+      "adaptation": "Original pull/snap spring stiffness, damping and mass; strength .35 and contentStrength .18. Fine-pointer only; native HTML links and buttons preserve keyboard interaction. Reduced motion disables springs."
+    }
+  ],
+  "imagery": "Existing locally generated concept assets retained. Not official product photography.",
+  "content": "Existing manufacturer name and external catalogue/contact destinations retained. Removed cherry state that reused a tinted currant image. No prices, testimonials, nutrition or production claims added. Flavour descriptions remain concept copy pending approval.",
+  "motion": "No automatic carousel or decorative infinite loops. Scroll-driven layer separation, macro reveal and on-demand flavour image wipe. Reduced-motion preference disables transitions and reveals the texture directly.",
+  "validation": {
+    "desktop": "1440x1000",
+    "mobile": "390x844",
+    "passed": [
+      "JavaScript syntax",
+      "flavour switching",
+      "matching product dialog",
+      "Escape and close button",
+      "mobile menu and anchor navigation",
+      "no horizontal overflow at checked widths",
+      "reduced-motion static layout and immediate flavour switching",
+      "runtime reduced-motion preference change without reload",
+      "no browser console errors in final revision",
+      "project_id unchanged"
+    ],
+    "screenshots": "../playwright/pastila-*.png"
+  }
+}
